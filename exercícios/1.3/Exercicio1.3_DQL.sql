@@ -1,0 +1,7 @@
+SELECT * FROM Clinica
+SELECT * FROM Veterinario
+SELECT * FROM Atendimento
+SELECT * FROM Pets
+SELECT * FROM Dono
+SELECT * FROM RacasPet
+SELECT * FROM TiposPet
