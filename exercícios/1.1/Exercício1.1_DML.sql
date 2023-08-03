@@ -1,8 +1,10 @@
-INSERT INTO Pessoas (Nome, CNH)
-VALUES('julio acessorioss', '53333');
+USE Exercicio1_1;
+
+INSERT INTO Pessoas(Nome, CNH)
+VALUES('xaruto brito', '77777');
 
 INSERT INTO Telefones(PessoaID, Telefone)
-Values(3, '12312123123')
+Values(4, '198239112323')
 
 INSERT INTO Emails(PessoaID, Email)
-Values(3,'1231231231233333@gmail.com')
+Values(4,'bbbbbbbbaaaa@gmail.com')

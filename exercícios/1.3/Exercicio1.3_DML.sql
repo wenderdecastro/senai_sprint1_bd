@@ -1,24 +1,24 @@
 USE Exercicio1_3
 
 INSERT INTO Clinica(NomeClinica, EnderecoClinica)
-VALUES('Neguinho Veterinaria', 'Onde os fifi não cola')
+VALUES('raduncio veterinaria', 'casa do vextre')
 
 INSERT INTO Veterinario(IDClinica, NomeVeterinario, CRMV)
-VALUES(1, 'Julio Cds', '55555')
+VALUES(2, 'cleber floricultura e cia', '11111')
 
 INSERT INTO TiposPet(NomeTipo)
-VALUES('Cachorro')
+VALUES('Tatu')
 
 INSERT INTO RacasPet(NomeRaca)
-VALUES('Salsicha')
+VALUES('Labrador')
 
-INSERT INTO Pets(IDRaca, IDTipo,IDDono, NomePet, DataNascimento)
-VALUES(1, 1, 1, 'Butão', '01-06-2009')
+INSERT INTO Dono(Endereco, Nome)
+VALUES('cano de concreto', 'rodriguinho do canil')
 
-INSERT INTO Dono(Endereco)
-VALUES('Casas Bahia')
+INSERT INTO Pets(IDRaca, IDTipo, IDDono, NomePet, DataNascimento)
+VALUES(2, 2, 3, 'juninho', '23-06-2059')
 
-INSERT INTO Atendimento(IDVeterinario, IDPet)
-VALUES(1, 1)
+INSERT INTO Atendimento(IDVeterinario, IDPet, IDClinica)
+VALUES(3, 2, 2)
 
 
